@@ -1,0 +1,12 @@
+mandatory: True
+question: |
+  Introduction to Markdown ${user_info().filename}
+---
+mandatory: True
+code: |
+  json_response(the_document.pdf.number)
+---
+attachment:
+  variable name: the_document
+  content: |
+    Your favorite fruit is.

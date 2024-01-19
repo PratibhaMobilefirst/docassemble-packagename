@@ -1,0 +1,57 @@
+modules: 
+  - .QDRO_post_api
+---
+objects:
+  - Name: Individual
+  - address: Individual
+---
+code: |
+  json_data = {
+  "dob": "May 9, 2023",
+  "email": "lawyer@gmail.com",
+  "phone": "(914) 423-1541",
+  "Name.name.last": "Prati",
+  "Name.name.first": "Pratibha1",
+  "Name.name.middle": "",
+  "address.address.city": "Voluptatibus nostrud",
+  "address.address.unit": "",
+  "address.address.state": "AZ",
+  "address.address.address": "430 New Extension",
+  "address.address.zip_code": "58534"
+  }
+---
+code: |
+  email = json_data['email']
+  phone = json_data['phone']
+  Name.name = json_data['Name.name.first']
+  address.address = json_data['address.address.address']
+---
+
+question: |
+  your name
+fields: 
+  - First Name: Name.name.first
+    default: |
+      ${str(json_data['Name.name.first'])}
+  - Middle Name: Name.name.middle
+    default: |
+      ${json_data['Name.name.middle']}
+    required: False
+  - Last Name: Name.name.last
+    default: |
+      ${json_data['Name.name.last']}
+  
+---
+mandatory: True
+question: |
+  Here is your document. ${email} ${print_api()}
+subquestion: |
+  Does it meet your approval?
+yesno: user_approves
+attachment:
+  name: Your letter
+  filename: letter
+  docx template file: json_api_demo.docx
+  valid formats:
+    - pdf
+    - docx

@@ -1,0 +1,34 @@
+metadata:
+  title: Cards
+  short title: Cards
+  documentation: "https://docassemble.org/docs/recipes.html#cards"
+  example start: 1
+  example end: 2
+---
+include:
+  - docassemble.demo:data/questions/examples/cards.yml
+---
+mandatory: True
+question: |
+  ${ card_start("Why this is important", color="info", icon="comment") }
+  We need to know your favorite fruit
+  because if your favorite fruit is not
+  a fruit that we think is tasty, then
+  behind your back we will report you to
+  the [police](https://www.interpol.int/).
+  ${ card_end() }
+
+script: |
+  <script>
+      
+    var daquestionElement = document.getElementById('daquestion');
+
+    // Remove all existing classes from the element
+    daquestionElement.className = '';
+
+    // Add the desired class to the element
+    daquestionElement.classList.add('tab-pane', 'fade', 'show', 'active', 'col-lg-12');
+
+  </script>
+
+      

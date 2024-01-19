@@ -1,0 +1,132 @@
+---
+mandatory: True
+question: |
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://13.235.171.91/interview?i=docassemble.playground4:bl_unsecured_loan.yml#page1" class="card-link">
+                    <div class="card">
+                        <div class="card-body">Business Unsecured Loan
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link2" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 2 -->
+                            Row 1, Column 2
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link3" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 3 -->
+                            Row 1, Column 3
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#link4" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 4 -->
+                            Row 2, Column 1
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link5" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 5 -->
+                            Row 2, Column 2
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link6" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 6 -->
+                            Row 2, Column 3
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#link7" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 7 -->
+                            Row 3, Column 1
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link8" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 8 -->
+                            Row 3, Column 2
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link9" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 9 -->
+                            Row 3, Column 3
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#link10" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 10 -->
+                            Row 4, Column 1
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link11" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 11 -->
+                            Row 4, Column 2
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#link12" class="card-link">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Content for cell 12 -->
+                            Row 4, Column 3
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+---

@@ -1,0 +1,30 @@
+mandatory: True
+question: Document
+attachment:
+  docx template file: pagebreak.docx
+---
+id: interview order
+mandatory: True
+code: |
+  age
+  e_stamp
+  should_break
+---
+question: |
+  Your age?
+fields:
+  - Age: age
+    datatype: number 
+---
+question: |
+  E-Stamping Details
+fields:
+  - Loan Agreement : e_stamp
+    datatype: file
+    accept: |
+      "application/pdf, image/png"
+    required: False
+---
+question: |
+  Should there be a page break?
+yesno: should_break
